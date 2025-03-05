@@ -6,7 +6,7 @@ public class TienSiAllowance extends  EmployeeDecorator{
     }
 
     public double getSalary() {
-        return employee.getSalary() + 500;
+        return employee.getSalary() + 1500;
     }
 
     public String getDescription() {
